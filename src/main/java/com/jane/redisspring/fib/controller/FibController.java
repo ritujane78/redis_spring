@@ -1,4 +1,4 @@
-package com.jane.redisspring.fib;
+package com.jane.redisspring.fib.controller;
 
 import com.jane.redisspring.fib.service.FibService;
 import lombok.AllArgsConstructor;
