@@ -200,3 +200,5 @@ lock.lock().subscribe();
 - Use proper serialization (JSON / Kryo / Jackson).
 
 ---
+
+Note: Run Redis from docker using the docker-compose file provided.
