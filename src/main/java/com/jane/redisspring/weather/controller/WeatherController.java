@@ -15,7 +15,7 @@ public class WeatherController {
     private WeatherService weatherService;
 
     @GetMapping("/{zip}")
-    public Mono<Integer> getWeatherByZip(@PathVariable int zip) {
-        return Mono.fromSupplier(() -> weatherService.getInfo(zip));
+    public Mono<Integer> getWeatherByZip(@PathVariable String zip) {
+        return weatherService.getInfo(zip);
     }
 }

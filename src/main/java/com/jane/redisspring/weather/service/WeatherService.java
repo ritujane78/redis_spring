@@ -1,6 +1,7 @@
 package com.jane.redisspring.weather.service;
 
+import reactor.core.publisher.Mono;
+
 public interface WeatherService {
-    int getInfo(int zip);
-    void update();
+    Mono<Integer> getInfo(String zip);
 }
